@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 21b2d438dfa57d74690f497359e6dbd3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Integration/Prefabs/UI/View [ Disconnection ].prefab
+  uploadId: 788640

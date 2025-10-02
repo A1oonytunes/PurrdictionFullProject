@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 582c2802a7c9af84e80ab5ba7b453d48
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/High/Internal/Time/Base/NetworkClockBase.cs
+  uploadId: 788640

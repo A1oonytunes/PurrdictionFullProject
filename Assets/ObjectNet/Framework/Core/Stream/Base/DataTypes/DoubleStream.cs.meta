@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7893bebb7d19820418c9959e8fde5e0b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Core/Stream/Base/DataTypes/DoubleStream.cs
+  uploadId: 788640

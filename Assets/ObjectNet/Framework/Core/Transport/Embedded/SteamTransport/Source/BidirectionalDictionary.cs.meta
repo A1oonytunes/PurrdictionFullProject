@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9a81ebc696194ef4c86410b6ced34c23
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Core/Transport/Embedded/SteamTransport/Source/BidirectionalDictionary.cs
+  uploadId: 788640

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 517bcb4ccce1c88438ac78f957334464
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/AddOns/SteamWorks/SteamManager.prefab
+  uploadId: 788640

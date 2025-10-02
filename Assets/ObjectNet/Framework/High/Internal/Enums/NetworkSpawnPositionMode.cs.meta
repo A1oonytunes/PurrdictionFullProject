@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ca8a0d406bb2df844b6db849568e7db1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/High/Internal/Enums/NetworkSpawnPositionMode.cs
+  uploadId: 788640

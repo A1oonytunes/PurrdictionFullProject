@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e783f7de4c709094eba60ba247e2e6f8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/28-KickPlayer/NetworkPrefabsDatabase.asset
+  uploadId: 788640

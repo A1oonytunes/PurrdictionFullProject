@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8a2f9df48ea29944f8a2063b7cc9adcc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Core/Nat/OpenNAT/Discovery/ISearcher.cs
+  uploadId: 788640

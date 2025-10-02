@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2b0d9f6a12eef5748911732a9b0daad7
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Readme.txt
+  uploadId: 788640

@@ -1,0 +1,352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ec45055f75d57439a0b73349117624, type: 3}
+  m_Name: NetworkPrefabsDatabase
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - Id: 1
+    Prefab: {fileID: 1463218066646263792, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+    AutoSync: 1
+    syncPosition: 
+    syncRotation: 
+    syncScale: 
+    AnimationAutoSync: 1
+    ParticlesAutoSync: 0
+    ShowScripts: 0
+    PrefabScripts:
+      Scripts:
+      - Script: {fileID: 4359647774132702944, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: MoveSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: SprintSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: RotationSmoothTime
+            Enabled: 0
+            Delay: 0
+          - Variable: SpeedChangeRate
+            Enabled: 0
+            Delay: 0
+          - Variable: FootstepAudioVolume
+            Enabled: 0
+            Delay: 0
+          - Variable: JumpHeight
+            Enabled: 0
+            Delay: 0
+          - Variable: Gravity
+            Enabled: 0
+            Delay: 0
+          - Variable: JumpTimeout
+            Enabled: 0
+            Delay: 0
+          - Variable: FallTimeout
+            Enabled: 0
+            Delay: 0
+          - Variable: Grounded
+            Enabled: 0
+            Delay: 0
+          - Variable: GroundedOffset
+            Enabled: 0
+            Delay: 0
+          - Variable: GroundedRadius
+            Enabled: 0
+            Delay: 0
+          - Variable: TopClamp
+            Enabled: 0
+            Delay: 0
+          - Variable: BottomClamp
+            Enabled: 0
+            Delay: 0
+          - Variable: CameraAngleOverride
+            Enabled: 0
+            Delay: 0
+          - Variable: LockCameraPosition
+            Enabled: 0
+            Delay: 0
+          - Variable: UseNetworkInput
+            Enabled: 0
+            Delay: 0
+          - Variable: _cinemachineTargetYaw
+            Enabled: 0
+            Delay: 0
+          - Variable: _cinemachineTargetPitch
+            Enabled: 0
+            Delay: 0
+          - Variable: _speed
+            Enabled: 0
+            Delay: 0
+          - Variable: _animationBlend
+            Enabled: 0
+            Delay: 0
+          - Variable: _targetRotation
+            Enabled: 0
+            Delay: 0
+          - Variable: _rotationVelocity
+            Enabled: 0
+            Delay: 0
+          - Variable: _verticalVelocity
+            Enabled: 0
+            Delay: 0
+          - Variable: _terminalVelocity
+            Enabled: 0
+            Delay: 0
+          - Variable: _jumpTimeoutDelta
+            Enabled: 0
+            Delay: 0
+          - Variable: _fallTimeoutDelta
+            Enabled: 0
+            Delay: 0
+          - Variable: _animIDSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: _animIDGrounded
+            Enabled: 0
+            Delay: 0
+          - Variable: _animIDJump
+            Enabled: 0
+            Delay: 0
+          - Variable: _animIDFreeFall
+            Enabled: 0
+            Delay: 0
+          - Variable: _animIDMotionSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: _hasAnimator
+            Enabled: 0
+            Delay: 0
+      - Script: {fileID: 6196888656308837321, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: canPush
+            Enabled: 0
+            Delay: 0
+          - Variable: strength
+            Enabled: 0
+            Delay: 0
+      - Script: {fileID: 5148542660807208389, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: jump
+            Enabled: 0
+            Delay: 0
+          - Variable: sprint
+            Enabled: 0
+            Delay: 0
+          - Variable: analogMovement
+            Enabled: 0
+            Delay: 0
+          - Variable: cursorLocked
+            Enabled: 0
+            Delay: 0
+          - Variable: cursorInputForLook
+            Enabled: 0
+            Delay: 0
+      - Script: {fileID: 3685245617683462947, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: m_NeverAutoSwitchControlSchemes
+            Enabled: 0
+            Delay: 0
+          - Variable: m_DefaultControlScheme
+            Enabled: 0
+            Delay: 0
+          - Variable: m_DefaultActionMap
+            Enabled: 0
+            Delay: 0
+          - Variable: m_SplitScreenIndex
+            Enabled: 0
+            Delay: 0
+          - Variable: m_PlayerIndex
+            Enabled: 0
+            Delay: 0
+          - Variable: m_InputActive
+            Enabled: 0
+            Delay: 0
+          - Variable: m_Enabled
+            Enabled: 0
+            Delay: 0
+          - Variable: m_ActionsInitialized
+            Enabled: 0
+            Delay: 0
+          - Variable: m_OnUnpairedDeviceUsedHooked
+            Enabled: 0
+            Delay: 0
+          - Variable: m_OnDeviceChangeHooked
+            Enabled: 0
+            Delay: 0
+      - Script: {fileID: 6842299265851613245, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: m_ShowDebugText
+            Enabled: 0
+            Delay: 0
+          - Variable: m_ShowCameraFrustum
+            Enabled: 0
+            Delay: 0
+          - Variable: m_IgnoreTimeScale
+            Enabled: 0
+            Delay: 0
+          - Variable: m_LastFrameUpdated
+            Enabled: 0
+            Delay: 0
+          - Variable: mNextFrameId
+            Enabled: 0
+            Delay: 0
+      - Script: {fileID: 2977574039150479887, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: m_RenderShadows
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RendererIndex
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RenderPostProcessing
+            Enabled: 0
+            Delay: 0
+          - Variable: m_StopNaN
+            Enabled: 0
+            Delay: 0
+          - Variable: m_Dithering
+            Enabled: 0
+            Delay: 0
+          - Variable: m_ClearDepth
+            Enabled: 0
+            Delay: 0
+          - Variable: m_AllowXRRendering
+            Enabled: 0
+            Delay: 0
+          - Variable: m_AllowHDROutput
+            Enabled: 0
+            Delay: 0
+          - Variable: m_UseScreenCoordOverride
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RequiresDepthTexture
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RequiresColorTexture
+            Enabled: 0
+            Delay: 0
+          - Variable: m_Version
+            Enabled: 0
+            Delay: 0
+      - Script: {fileID: 6194427374282554662, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables: []
+    ShowChilds: 0
+    ChildObjets:
+      Objects:
+      - Target: {fileID: 7879619294805013995, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8405303312374769141, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6611036879976404419, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2321146728711256430, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1566289242807868552, guid: 8085b88fbfbe9594f8784ec548c3a56f, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+    ShowInputScripts: 0
+    InputScripts:
+      Scripts: []
+    ShowVariables: 0
+    ShowEvents: 0
+    ShowTranform: 0
+    ShowChildTree: 0
+    prefabEvents:
+      onSpawnPrefab:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onDespawnPrefab:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onAcceptOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onAcceptReleaseOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onTakeObjectOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onReleaseObjectOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+    AnimationSyncMode: 1
+    AnimationCount: 1
+    AnimationDefaultStatus: Idle Walk Run Blend
+    ownershipAccessLevel: 0
+    movementType: 0
+    disableObjectGravity: 1
+    enableObjectKinematic: 1
+    updateFieldsToDefault: v.1

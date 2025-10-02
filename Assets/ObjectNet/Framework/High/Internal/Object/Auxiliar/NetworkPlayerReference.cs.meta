@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 002a14ed3fed84e45bfc1e280b873450
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/High/Internal/Object/Auxiliar/NetworkPlayerReference.cs
+  uploadId: 788640

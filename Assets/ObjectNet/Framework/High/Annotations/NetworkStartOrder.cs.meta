@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 30b1798b5563da545a8f51fa541f9ed0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/High/Annotations/NetworkStartOrder.cs
+  uploadId: 788640

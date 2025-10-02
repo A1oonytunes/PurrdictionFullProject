@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 39eebae649409214b8beb7860b9daffe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/High/Internal/Time/UnityImpl/UnityClock.cs
+  uploadId: 788640

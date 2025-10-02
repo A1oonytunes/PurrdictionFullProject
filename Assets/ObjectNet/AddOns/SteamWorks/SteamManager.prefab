@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4738166051190640252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6902815433102486780}
+  - component: {fileID: 2010118442063652476}
+  m_Layer: 0
+  m_Name: SteamManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6902815433102486780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738166051190640252}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 962.35364, y: 539.6822, z: 1487.6274}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2010118442063652476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738166051190640252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aca0bd73cb044645bf5a34cd322be53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  debugLogger: 0
+  lobbyType: 1
+  lobbyDistance: 3
+  autoRefresh: 0
+  refreshRate: 2000
+  disconnectDetection: 1
+  maximumOfPlayers: 4
+  reconnectionDelay: 4000
+  hostMigration: 0
+  dontMigrateDuringAutoLoadPause: 0
+  despawnDisconnectedServerPlayer: 0
+  despawnDisconnectedClientsAfterMigration: 0
+  reconnectionClientToolerance: 10
+  hostLeaveLobbyProviderObject: {fileID: 0}
+  hostLeaveLobbyComponent: {fileID: 0}
+  hostLeaveLobbyMethod: 
+  steamEvents: {fileID: 0}

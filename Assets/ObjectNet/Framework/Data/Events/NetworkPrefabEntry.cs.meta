@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2f4e1479a48feef41803670d0a2b95cd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Data/Events/NetworkPrefabEntry.cs
+  uploadId: 788640

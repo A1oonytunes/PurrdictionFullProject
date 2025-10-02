@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 56cd63f4fca86944ab19f47b5a6a7500
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/High/Internal/NetworkInstantiateDetection.cs
+  uploadId: 788640

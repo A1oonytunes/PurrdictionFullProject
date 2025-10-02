@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e2d9f237f697f454ab9d61877231c447
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Core/Nat/OpenNAT/Exceptions/MappingException.cs
+  uploadId: 788640

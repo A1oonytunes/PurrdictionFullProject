@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4120947395637917976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4120947395637917991}
+  - component: {fileID: 4120947395637917990}
+  m_Layer: 0
+  m_Name: Server
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4120947395637917991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120947395637917976}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4120947395742506049}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4120947395637917990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120947395637917976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea7aa70179ccb84f845e31c88adaff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectionType: 0
+  channel: 2
+  autoConnect: 1
+  direction: 1
+  pingFrequency: 100
+--- !u!1 &4120947395742506051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4120947395742506049}
+  - component: {fileID: 4120947395742506050}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4120947395742506049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120947395742506051}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 961.302, y: 549.90454, z: -3.5653687}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4120947395637917991}
+  - {fileID: 4120947396941456452}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4120947395742506050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120947395742506051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f69e3b724633e41b3e77aefe9ab04c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  databaseTarget: Default
+  serverWorkingMode: 1
+  usePeerToPeer: 1
+  useNatTraversal: 0
+  useLobbyManager: 1
+  serverSocket: {fileID: 4120947395637917990}
+  clientSocket: {fileID: 4120947396941456451}
+  connectionType: 2
+  autoConnectOnStart: 0
+  connectionDelay: 0
+  asyncConnect: 0
+  autoReconnect: 0
+  reconnectionDelay: 5
+  reconnectionAttemps: 5
+  idleTimeutDetection: 10
+  clientConnectDelay: 100
+  detectServerRestart: 0
+  useNetworkLogin: 0
+  loginInfoProviderObject: {fileID: 0}
+  loginInfoComponent: {fileID: 0}
+  loginInfoMethod: 
+  loginTypesMethod: 
+  enableLoginValidation: 0
+  loginValidationProviderObject: {fileID: 0}
+  loginValidationComponent: {fileID: 0}
+  loginValidationMethod: 
+  useNetworkClock: 0
+  useMovementPrediction: 0
+  useInterpolation: 0
+  movementType: 0
+  predictionType: 0
+  predictionBufferSize: 50
+  predictionFactor:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  predictionSpeedFactor:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  overridePrediction: 0
+  predictionProviderObject: {fileID: 0}
+  predictionComponent: {fileID: 0}
+  useRemoteInput: 0
+  useEchoInput: 0
+  inputProviderObject: {fileID: 0}
+  inputComponent: {fileID: 0}
+  inputList: []
+  useInternalPing: 0
+  latencyTolerance: 0
+  goodLatencyValue: 60
+  acceptableLatencyValue: 160
+  useSingleServers: 1
+  serverAddress: 127.0.0.1
+  hostServerAddress: 127.0.0.1
+  useAnyAddress: 1
+  useFixedAddress: 0
+  usePublicAddress: 0
+  useInternalAddress: 0
+  tcpConnectionPort: 4550
+  udpConnectionPort: 4550
+  peerToPeerPort: 4560
+  peerToPeerPortPeerPlayer: 1
+  useMultipleServers: 0
+  networkServers:
+  - 192.168.1.100
+  - 192.168.1.101
+  networkServersEnabled: 0101
+  useDynamicAddress: 0
+  requestServersObject: {fileID: 0}
+  requestServerComponent: {fileID: 0}
+  requestServerMethod: GetAvaiableServers
+  sendRateAmount: 30
+  minimumRateAmount: 4
+  sendUpdateMode: 1
+  enablePlayerSpawner: 1
+  useInternalNetworkId: 1
+  useCustomNetworkId: 0
+  networkIdProviderObject: {fileID: 0}
+  networkIdComponent: {fileID: 0}
+  networkIdMethod: 
+  controlPlayerCameras: 1
+  detachPlayerCamera: 0
+  despawnPlayerOnDisconnect: 1
+  despawnPlayerAfterDelay: 0
+  delayToRemoveDisconnected: 60
+  playerSpawnMode: 0
+  playerSpawnTimeMode: 0
+  playerPrefabToSpawn: {fileID: 0}
+  playerSpawnerProviderObject: {fileID: 0}
+  playerSpawnerComponent: {fileID: 0}
+  playerSpawnerMethod: 
+  spawnPositionMode: 0
+  fixedPositionToSpawn: {fileID: 0}
+  multiplePositionsToSpawn: []
+  positionSpawnerProviderObject: {fileID: 0}
+  positionSpawnerComponent: {fileID: 0}
+  positionSpawnerMethod: 
+  encryptionEnabled: 0
+  encryptionProviderObject: {fileID: 0}
+  encryptionComponent: {fileID: 0}
+  encryptionMethod: 
+  decryptionMethod: 
+  ownerShipMode: 2
+  enableCCULimit: 0
+  maximunConnectedCount: 4294967295
+  allowPlayersRequestSceneLoad: 0
+  pauseDisconnectionOnSceneLoad: 1
+--- !u!1 &4120947396941456453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4120947396941456452}
+  - component: {fileID: 4120947396941456451}
+  m_Layer: 0
+  m_Name: Client
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4120947396941456452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120947396941456453}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4120947395742506049}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4120947396941456451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120947396941456453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea7aa70179ccb84f845e31c88adaff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectionType: 1
+  channel: 2
+  autoConnect: 1
+  direction: 0
+  pingFrequency: 100

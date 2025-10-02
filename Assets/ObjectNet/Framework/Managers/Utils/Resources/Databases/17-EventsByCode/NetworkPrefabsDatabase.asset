@@ -1,0 +1,1313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ec45055f75d57439a0b73349117624, type: 3}
+  m_Name: NetworkPrefabsDatabase
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - Id: 1
+    Prefab: {fileID: 1463218066646263792, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+    AutoSync: 1
+    syncPosition: 
+    syncRotation: 
+    syncScale: 
+    AnimationAutoSync: 1
+    ParticlesAutoSync: 0
+    ShowScripts: 1
+    PrefabScripts:
+      Scripts:
+      - Script: {fileID: 7146427230041105755, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        Delay: 0
+        Variables:
+          Variables: []
+        AllowExecutor: 0
+        Update1_35: 1
+      - Script: {fileID: 4359647774132702944, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 0
+        Delay: 20
+        Variables:
+          Variables:
+          - Variable: MoveSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: SprintSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: RotationSmoothTime
+            Enabled: 0
+            Delay: 0
+          - Variable: SpeedChangeRate
+            Enabled: 0
+            Delay: 0
+          - Variable: FootstepAudioVolume
+            Enabled: 0
+            Delay: 0
+          - Variable: JumpHeight
+            Enabled: 0
+            Delay: 0
+          - Variable: Gravity
+            Enabled: 0
+            Delay: 0
+          - Variable: JumpTimeout
+            Enabled: 0
+            Delay: 0
+          - Variable: FallTimeout
+            Enabled: 0
+            Delay: 0
+          - Variable: Grounded
+            Enabled: 0
+            Delay: 0
+          - Variable: GroundedOffset
+            Enabled: 0
+            Delay: 0
+          - Variable: GroundedRadius
+            Enabled: 0
+            Delay: 0
+          - Variable: TopClamp
+            Enabled: 0
+            Delay: 0
+          - Variable: BottomClamp
+            Enabled: 0
+            Delay: 0
+          - Variable: CameraAngleOverride
+            Enabled: 0
+            Delay: 0
+          - Variable: LockCameraPosition
+            Enabled: 0
+            Delay: 0
+          - Variable: UseNetworkInput
+            Enabled: 0
+            Delay: 0
+          - Variable: _cinemachineTargetYaw
+            Enabled: 0
+            Delay: 0
+          - Variable: _cinemachineTargetPitch
+            Enabled: 0
+            Delay: 0
+          - Variable: _speed
+            Enabled: 0
+            Delay: 0
+          - Variable: _animationBlend
+            Enabled: 0
+            Delay: 0
+          - Variable: _targetRotation
+            Enabled: 0
+            Delay: 0
+          - Variable: _rotationVelocity
+            Enabled: 0
+            Delay: 0
+          - Variable: _verticalVelocity
+            Enabled: 0
+            Delay: 0
+          - Variable: _terminalVelocity
+            Enabled: 0
+            Delay: 0
+          - Variable: _jumpTimeoutDelta
+            Enabled: 0
+            Delay: 0
+          - Variable: _fallTimeoutDelta
+            Enabled: 0
+            Delay: 0
+          - Variable: _animIDSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: _animIDGrounded
+            Enabled: 0
+            Delay: 0
+          - Variable: _animIDJump
+            Enabled: 0
+            Delay: 0
+          - Variable: _animIDFreeFall
+            Enabled: 0
+            Delay: 0
+          - Variable: _animIDMotionSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: _hasAnimator
+            Enabled: 0
+            Delay: 0
+        AllowExecutor: 0
+        Update1_35: 0
+      - Script: {fileID: 6196888656308837321, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: canPush
+            Enabled: 0
+            Delay: 0
+          - Variable: strength
+            Enabled: 0
+            Delay: 0
+        AllowExecutor: 0
+        Update1_35: 0
+      - Script: {fileID: 5148542660807208389, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: jump
+            Enabled: 0
+            Delay: 0
+          - Variable: sprint
+            Enabled: 0
+            Delay: 0
+          - Variable: analogMovement
+            Enabled: 0
+            Delay: 0
+          - Variable: cursorLocked
+            Enabled: 0
+            Delay: 0
+          - Variable: cursorInputForLook
+            Enabled: 0
+            Delay: 0
+        AllowExecutor: 0
+        Update1_35: 0
+      - Script: {fileID: 3685245617683462947, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: m_NeverAutoSwitchControlSchemes
+            Enabled: 0
+            Delay: 0
+          - Variable: m_DefaultControlScheme
+            Enabled: 0
+            Delay: 0
+          - Variable: m_DefaultActionMap
+            Enabled: 0
+            Delay: 0
+          - Variable: m_SplitScreenIndex
+            Enabled: 0
+            Delay: 0
+          - Variable: m_PlayerIndex
+            Enabled: 0
+            Delay: 0
+          - Variable: m_InputActive
+            Enabled: 0
+            Delay: 0
+          - Variable: m_Enabled
+            Enabled: 0
+            Delay: 0
+          - Variable: m_ActionsInitialized
+            Enabled: 0
+            Delay: 0
+          - Variable: m_OnUnpairedDeviceUsedHooked
+            Enabled: 0
+            Delay: 0
+          - Variable: m_OnDeviceChangeHooked
+            Enabled: 0
+            Delay: 0
+        AllowExecutor: 0
+        Update1_35: 0
+      - Script: {fileID: 6842299265851613245, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: m_ShowDebugText
+            Enabled: 0
+            Delay: 0
+          - Variable: m_ShowCameraFrustum
+            Enabled: 0
+            Delay: 0
+          - Variable: m_IgnoreTimeScale
+            Enabled: 0
+            Delay: 0
+          - Variable: m_LastFrameUpdated
+            Enabled: 0
+            Delay: 0
+          - Variable: mNextFrameId
+            Enabled: 0
+            Delay: 0
+        AllowExecutor: 0
+        Update1_35: 0
+      - Script: {fileID: 2977574039150479887, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: m_RenderShadows
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RendererIndex
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RenderPostProcessing
+            Enabled: 0
+            Delay: 0
+          - Variable: m_StopNaN
+            Enabled: 0
+            Delay: 0
+          - Variable: m_Dithering
+            Enabled: 0
+            Delay: 0
+          - Variable: m_ClearDepth
+            Enabled: 0
+            Delay: 0
+          - Variable: m_AllowXRRendering
+            Enabled: 0
+            Delay: 0
+          - Variable: m_AllowHDROutput
+            Enabled: 0
+            Delay: 0
+          - Variable: m_UseScreenCoordOverride
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RequiresDepthTexture
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RequiresColorTexture
+            Enabled: 0
+            Delay: 0
+          - Variable: m_Version
+            Enabled: 0
+            Delay: 0
+        AllowExecutor: 0
+        Update1_35: 0
+      - Script: {fileID: 6194427374282554662, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables: []
+        AllowExecutor: 0
+        Update1_35: 0
+      - Script: {fileID: 1551763199020242427, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables: []
+        AllowExecutor: 0
+        Update1_35: 0
+      - Script: {fileID: 1598719383353780654, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: m_PivotOffset
+            Enabled: 0
+            Delay: 0
+          - Variable: m_AmplitudeGain
+            Enabled: 0
+            Delay: 0
+          - Variable: m_FrequencyGain
+            Enabled: 0
+            Delay: 0
+          - Variable: mInitialized
+            Enabled: 0
+            Delay: 0
+          - Variable: mNoiseTime
+            Enabled: 0
+            Delay: 0
+          - Variable: mNoiseOffsets
+            Enabled: 0
+            Delay: 0
+        AllowExecutor: 0
+        Update1_35: 0
+      - Script: {fileID: 6794977410936656395, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: Damping
+            Enabled: 0
+            Delay: 0
+          - Variable: ShoulderOffset
+            Enabled: 0
+            Delay: 0
+          - Variable: VerticalArmLength
+            Enabled: 0
+            Delay: 0
+          - Variable: CameraSide
+            Enabled: 0
+            Delay: 0
+          - Variable: CameraDistance
+            Enabled: 0
+            Delay: 0
+          - Variable: IgnoreTag
+            Enabled: 0
+            Delay: 0
+          - Variable: CameraRadius
+            Enabled: 0
+            Delay: 0
+          - Variable: DampingIntoCollision
+            Enabled: 0
+            Delay: 0
+          - Variable: DampingFromCollision
+            Enabled: 0
+            Delay: 0
+          - Variable: m_PreviousFollowTargetPosition
+            Enabled: 0
+            Delay: 0
+          - Variable: m_DampingCorrection
+            Enabled: 0
+            Delay: 0
+          - Variable: m_CamPosCollisionCorrection
+            Enabled: 0
+            Delay: 0
+        AllowExecutor: 0
+        Update1_35: 0
+    ShowChilds: 0
+    ChildObjets:
+      Objects:
+      - Target: {fileID: 7879619294805013995, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8405303312374769141, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6855035270256449309, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6611036879976404419, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2321146728711256430, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6247715358042514485, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5808018417890150067, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1406102681200423125, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8556661894280913650, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1672257899778278933, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4275880371451544410, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1359710227620122029, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4557008350464914076, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8082264457038283768, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3358916956043236484, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 7337794334079002459, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6640391051600068954, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 619757219445298544, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6371130841526873366, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 987670092491072010, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5331228764597258775, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8053883406810210580, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3993590173619920802, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1172152557123385647, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8789988005667057492, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5397673106236810513, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3033387696186142326, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2803070279446323109, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 7278189847861923688, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1055268979470077560, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2986048015566206913, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4265175564089958731, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3441029826607831727, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3846088548151990153, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4230397500383747228, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4446559490740361050, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 620244752903395679, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6054094301749943503, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1289775355651798733, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4908889096930209072, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8123890189863305631, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2342618539645469456, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5620736066385580031, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 7686901540279843556, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6071954859895858672, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2413578387629838907, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6284035974569434363, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6260498337467565938, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3481882960685802869, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8330322278240304882, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1186738413771716127, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6360671581982735491, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3915126627624096769, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5277901080983850795, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6895874648746149311, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 7992494266615346287, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 542233150081625598, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6722263970062835900, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4588287652060106054, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1566289242807868552, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2949389263129799713, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5091998438252529545, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4953267355442074619, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3221387804252738373, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6138417496284226408, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4277934922795808773, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4278586331360492448, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3137526375366040887, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3016888972165702048, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2923516555202013570, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8080713742724421610, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8089658565252329471, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 7013098740142482343, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 7682039583075627811, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 7763818125708088908, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4342895756680860380, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5253377875259150826, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4092687060388256576, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3054979539857798179, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 509098123937197222, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1606640139119271362, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5433982492305727083, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1164154835903630478, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4753807277440216197, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 9222424760950857867, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4225232767887888247, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 830302976835786200, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5921921973142797024, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6311778170171315813, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4513302657678807573, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3826427536966502942, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8703576679503174749, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5234395691023231384, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4529389267117615968, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 195853858631234326, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 7369067536994021948, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8741387923303141063, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4072311157015857418, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1933899863865303015, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3623043664202609548, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6254901293659200528, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5314522401564863555, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 7868719167967405237, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3981410108175380919, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 388676053351100189, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 7701694921510467967, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 817583103511640021, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 3568272137125693408, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1466592621708907860, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4044358840361046282, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 674020687684959262, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6211097151509393447, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1919201694363532798, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 5850539834709524334, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2095521737732803689, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1606909263146203858, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1317466449591330800, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4953185409913064931, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8140445371338021638, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8044174100664616992, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6738890358804617355, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4470955694782603022, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 986119408358073972, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2006066974510022848, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8379567049138994076, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 850345121223418143, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 8503839232379287996, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2212015453868064934, guid: afeb60cc488289741939059cc1e4ac52, type: 3}
+        Enabled: 1
+        ChildIndex: 0
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+    ShowInputScripts: 0
+    InputScripts:
+      Scripts: []
+    ShowVariables: 0
+    ShowEvents: 0
+    ShowTranform: 0
+    ShowChildTree: 0
+    prefabEvents:
+      onSpawnPrefab:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onDespawnPrefab:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onAcceptOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onAcceptReleaseOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onTakeObjectOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onReleaseObjectOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+    AnimationSyncMode: 1
+    AnimationCount: 1
+    AnimationDefaultStatus: Idle Walk Run Blend
+    ownershipAccessLevel: 0
+    movementType: 0
+    disableObjectGravity: 1
+    enableObjectKinematic: 1
+    enableObjectInterpolate: 0
+    usePrefabRotation: 0
+    customSendRate: 0
+    sendRateAmount: 0
+    updateFieldsToDefault: v.1

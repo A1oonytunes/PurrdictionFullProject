@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 698fd91826b186f44a530a20a5d85871
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/98-SteamTransport/NetworkEventsDatabase.asset
+  uploadId: 788640

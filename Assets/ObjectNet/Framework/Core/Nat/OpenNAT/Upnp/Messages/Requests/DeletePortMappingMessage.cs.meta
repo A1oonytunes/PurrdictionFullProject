@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3dd2c97057c41c541ac433408a319206
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Core/Nat/OpenNAT/Upnp/Messages/Requests/DeletePortMappingMessage.cs
+  uploadId: 788640

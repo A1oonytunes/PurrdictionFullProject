@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ed230e90b2759546a25fdd51d185b0d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/17-EventsByCode/NetworkPrefabsDatabase.asset
+  uploadId: 788640

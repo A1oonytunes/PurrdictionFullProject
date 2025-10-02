@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5ab921c68690c7143a8047fc31baaf54
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Data/Objects/Entryes/ChildTransformEntry.cs
+  uploadId: 788640

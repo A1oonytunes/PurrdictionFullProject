@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 23c7c0281ab52724a83a625300afef20
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Core/Transport/Embedded/OnlineObjectTransport/Source/Utils/EmbeddedExtensions.cs
+  uploadId: 788640

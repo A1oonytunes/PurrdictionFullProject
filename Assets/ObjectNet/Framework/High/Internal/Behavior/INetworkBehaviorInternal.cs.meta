@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ffef1a85d7b81ee40802ff8dd62098a4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/High/Internal/Behavior/INetworkBehaviorInternal.cs
+  uploadId: 788640

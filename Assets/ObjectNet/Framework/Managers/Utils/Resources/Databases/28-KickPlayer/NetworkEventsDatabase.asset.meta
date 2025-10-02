@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7d81830d9cb901e458eaf34e232c7331
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/28-KickPlayer/NetworkEventsDatabase.asset
+  uploadId: 788640

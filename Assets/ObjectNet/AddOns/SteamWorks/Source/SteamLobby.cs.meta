@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ee896128aff7f4249a5877eac0a05936
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/AddOns/SteamWorks/Source/SteamLobby.cs
+  uploadId: 788640

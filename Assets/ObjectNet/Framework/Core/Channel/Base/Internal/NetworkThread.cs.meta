@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5e58c5f2e0b97ce4596dd94099e7534c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Core/Channel/Base/Internal/NetworkThread.cs
+  uploadId: 788640

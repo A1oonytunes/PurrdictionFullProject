@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f0a487808edf7254883fda4aaba35642
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Data/Events/NetworkDatabaseWindow.cs
+  uploadId: 788640

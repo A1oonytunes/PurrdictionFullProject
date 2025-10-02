@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 76ad7fef74ac9124283559ae600bdcf9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/25-ChildsSync/NetworkEventsDatabase.asset
+  uploadId: 788640

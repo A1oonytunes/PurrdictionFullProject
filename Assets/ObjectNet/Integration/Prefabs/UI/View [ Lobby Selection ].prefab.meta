@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e66125e52aaeebe45a5bbd0d4db906c3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Integration/Prefabs/UI/View [ Lobby Selection ].prefab
+  uploadId: 788640

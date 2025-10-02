@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1466595487149170604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466595487149170606}
+  - component: {fileID: 1002607879162877874}
+  m_Layer: 0
+  m_Name: NetworkEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1466595487149170606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466595487149170604}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 975.2793, y: 542.6633, z: -0.06208068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1002607879162877874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466595487149170604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33248738d4279ab428b810f6ac822bb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerEvents: []
+  ActionsEvents: []
+  InternalEventsHidden: 1
+  ListenersEventsHidden: 0
+  ActionsEventsHidden: 0
+  databaseTarget: Default
+  onServerStarted: {fileID: 0}
+  onConnected: {fileID: 0}
+  onDisconnected: {fileID: 0}
+  onConnectedOnRelay: {fileID: 0}
+  onServerRestarted: {fileID: 0}
+  onConnectionFailed: {fileID: 0}
+  onLoginFailed: {fileID: 0}
+  onLoginSucess: {fileID: 0}
+  onClientConnected: {fileID: 0}
+  onClientDisconnected: {fileID: 0}
+  onClientLoginFailed: {fileID: 0}
+  onClientLoginSucess: {fileID: 0}
+  onMessageReceived: {fileID: 0}
+  onLobbyCreationSucess: {fileID: 0}
+  onLobbyCreationFailed: {fileID: 0}
+  onLobbyJoinedSucess: {fileID: 0}
+  onLobbyJoinFailed: {fileID: 0}
+  onLobbyPlayersRefresh: {fileID: 0}
+  onPlayerSpawned: {fileID: 0}
+  onPlayerStarted: {fileID: 0}
+  onPlayerOwnerDetected: {fileID: 0}
+  onSceneLoadFinished: {fileID: 0}
+  onSceneUnLoadFinished: {fileID: 0}
+  onConnectionIdAssigned: {fileID: 0}
+  dontDestroyOnLoad: 1

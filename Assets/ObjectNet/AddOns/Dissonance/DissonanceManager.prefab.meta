@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6910b1c3413f483439d63a7f4e2e1312
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/AddOns/Dissonance/DissonanceManager.prefab
+  uploadId: 788640

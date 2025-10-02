@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 061070aa85775a34c80249ff92dd3f0c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/96-VoiceChat/NetworkEventsDatabase.asset
+  uploadId: 788640

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 03e59e5a32bf45649b146ad10eaaa3da
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Integration/Prefabs/NetworkEvents.prefab
+  uploadId: 788640

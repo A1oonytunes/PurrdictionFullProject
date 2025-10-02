@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1b65fed5aae50d1409a4cb23f8ca58b4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/References/Events/EventReferencePrefab.cs
+  uploadId: 788640

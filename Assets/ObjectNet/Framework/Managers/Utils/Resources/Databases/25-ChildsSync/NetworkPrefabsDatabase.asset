@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ec45055f75d57439a0b73349117624, type: 3}
+  m_Name: NetworkPrefabsDatabase
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - Id: 1
+    Prefab: {fileID: 4558411392142725532, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+    AutoSync: 1
+    syncPosition: 010101
+    syncRotation: 010101
+    syncScale: 010101
+    AnimationAutoSync: 0
+    ParticlesAutoSync: 0
+    ShowScripts: 0
+    PrefabScripts:
+      Scripts:
+      - Script: {fileID: 7774817699315356672, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: <CanMove>k__BackingField
+            Enabled: 0
+            Delay: 0
+          - Variable: canSprint
+            Enabled: 0
+            Delay: 0
+          - Variable: canJump
+            Enabled: 0
+            Delay: 0
+          - Variable: canCrouch
+            Enabled: 0
+            Delay: 0
+          - Variable: canUseHeadbob
+            Enabled: 0
+            Delay: 0
+          - Variable: handleMouse
+            Enabled: 0
+            Delay: 0
+          - Variable: walkSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: sprintSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: crouchSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: lookSpeedX
+            Enabled: 0
+            Delay: 0
+          - Variable: lookSpeedY
+            Enabled: 0
+            Delay: 0
+          - Variable: upperLookLimit
+            Enabled: 0
+            Delay: 0
+          - Variable: lowerLookLimit
+            Enabled: 0
+            Delay: 0
+          - Variable: jumpForce
+            Enabled: 0
+            Delay: 0
+          - Variable: gravity
+            Enabled: 0
+            Delay: 0
+          - Variable: crouchHeight
+            Enabled: 0
+            Delay: 0
+          - Variable: standingHeight
+            Enabled: 0
+            Delay: 0
+          - Variable: timeToCrouch
+            Enabled: 0
+            Delay: 0
+          - Variable: crouchingCenter
+            Enabled: 0
+            Delay: 0
+          - Variable: standingCenter
+            Enabled: 0
+            Delay: 0
+          - Variable: isCrouching
+            Enabled: 0
+            Delay: 0
+          - Variable: duringCrouchAnimation
+            Enabled: 0
+            Delay: 0
+          - Variable: walkBobSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: walkBobAmount
+            Enabled: 0
+            Delay: 0
+          - Variable: sprintBobSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: sprintBobAmount
+            Enabled: 0
+            Delay: 0
+          - Variable: crouchBobSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: crouchBobAmount
+            Enabled: 0
+            Delay: 0
+          - Variable: defaultYPos
+            Enabled: 0
+            Delay: 0
+          - Variable: timer
+            Enabled: 0
+            Delay: 0
+          - Variable: moveDirection
+            Enabled: 0
+            Delay: 0
+          - Variable: rotationX
+            Enabled: 0
+            Delay: 0
+          - Variable: TimeBetweenSteps
+            Enabled: 0
+            Delay: 0
+          - Variable: usedTime
+            Enabled: 0
+            Delay: 0
+          - Variable: isMoving
+            Enabled: 0
+            Delay: 0
+          - Variable: isSpriting
+            Enabled: 0
+            Delay: 0
+          - Variable: isAgachado
+            Enabled: 0
+            Delay: 0
+          - Variable: airTime
+            Enabled: 0
+            Delay: 0
+      - Script: {fileID: 8167369272428589272, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 1
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: ellapsed
+            Enabled: 0
+            Delay: 0
+      - Script: {fileID: 7651257382246776049, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: m_RenderShadows
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RendererIndex
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RenderPostProcessing
+            Enabled: 0
+            Delay: 0
+          - Variable: m_StopNaN
+            Enabled: 0
+            Delay: 0
+          - Variable: m_Dithering
+            Enabled: 0
+            Delay: 0
+          - Variable: m_ClearDepth
+            Enabled: 0
+            Delay: 0
+          - Variable: m_AllowXRRendering
+            Enabled: 0
+            Delay: 0
+          - Variable: m_AllowHDROutput
+            Enabled: 0
+            Delay: 0
+          - Variable: m_UseScreenCoordOverride
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RequiresDepthTexture
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RequiresColorTexture
+            Enabled: 0
+            Delay: 0
+          - Variable: m_Version
+            Enabled: 0
+            Delay: 0
+    ShowChilds: 0
+    ChildObjets:
+      Objects:
+      - Target: {fileID: 4228173118677497236, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 1
+        ChildIndex: 1
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 1295085538846766250, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 1
+        ChildIndex: 2
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 2747749105619133301, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 1
+        ChildIndex: 3
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 4858920256333718029, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 1
+        ChildIndex: 4
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 775767903449060593, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 1
+        ChildIndex: 5
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 6638053182916628659, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 1
+        ChildIndex: 6
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 239476404270384321, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 1
+        ChildIndex: 7
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+      - Target: {fileID: 649990891701423976, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 1
+        ChildIndex: 8
+        Delay: 0
+        SyncPosition: 0
+        SyncRotation: 0
+        SyncScale: 0
+    ShowInputScripts: 0
+    InputScripts:
+      Scripts:
+      - Script: {fileID: 7774817699315356672, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: <CanMove>k__BackingField
+            Enabled: 0
+            Delay: 0
+          - Variable: canSprint
+            Enabled: 0
+            Delay: 0
+          - Variable: canJump
+            Enabled: 0
+            Delay: 0
+          - Variable: canCrouch
+            Enabled: 0
+            Delay: 0
+          - Variable: canUseHeadbob
+            Enabled: 0
+            Delay: 0
+          - Variable: handleMouse
+            Enabled: 0
+            Delay: 0
+          - Variable: walkSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: sprintSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: crouchSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: lookSpeedX
+            Enabled: 0
+            Delay: 0
+          - Variable: lookSpeedY
+            Enabled: 0
+            Delay: 0
+          - Variable: upperLookLimit
+            Enabled: 0
+            Delay: 0
+          - Variable: lowerLookLimit
+            Enabled: 0
+            Delay: 0
+          - Variable: jumpForce
+            Enabled: 0
+            Delay: 0
+          - Variable: gravity
+            Enabled: 0
+            Delay: 0
+          - Variable: crouchHeight
+            Enabled: 0
+            Delay: 0
+          - Variable: standingHeight
+            Enabled: 0
+            Delay: 0
+          - Variable: timeToCrouch
+            Enabled: 0
+            Delay: 0
+          - Variable: crouchingCenter
+            Enabled: 0
+            Delay: 0
+          - Variable: standingCenter
+            Enabled: 0
+            Delay: 0
+          - Variable: isCrouching
+            Enabled: 0
+            Delay: 0
+          - Variable: duringCrouchAnimation
+            Enabled: 0
+            Delay: 0
+          - Variable: walkBobSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: walkBobAmount
+            Enabled: 0
+            Delay: 0
+          - Variable: sprintBobSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: sprintBobAmount
+            Enabled: 0
+            Delay: 0
+          - Variable: crouchBobSpeed
+            Enabled: 0
+            Delay: 0
+          - Variable: crouchBobAmount
+            Enabled: 0
+            Delay: 0
+          - Variable: defaultYPos
+            Enabled: 0
+            Delay: 0
+          - Variable: timer
+            Enabled: 0
+            Delay: 0
+          - Variable: moveDirection
+            Enabled: 0
+            Delay: 0
+          - Variable: rotationX
+            Enabled: 0
+            Delay: 0
+          - Variable: TimeBetweenSteps
+            Enabled: 0
+            Delay: 0
+          - Variable: usedTime
+            Enabled: 0
+            Delay: 0
+          - Variable: isMoving
+            Enabled: 0
+            Delay: 0
+          - Variable: isSpriting
+            Enabled: 0
+            Delay: 0
+          - Variable: isAgachado
+            Enabled: 0
+            Delay: 0
+          - Variable: airTime
+            Enabled: 0
+            Delay: 0
+      - Script: {fileID: 7651257382246776049, guid: 2bf71863278457842b04f029fe597c2d, type: 3}
+        Enabled: 0
+        Delay: 0
+        Variables:
+          Variables:
+          - Variable: m_RenderShadows
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RendererIndex
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RenderPostProcessing
+            Enabled: 0
+            Delay: 0
+          - Variable: m_StopNaN
+            Enabled: 0
+            Delay: 0
+          - Variable: m_Dithering
+            Enabled: 0
+            Delay: 0
+          - Variable: m_ClearDepth
+            Enabled: 0
+            Delay: 0
+          - Variable: m_AllowXRRendering
+            Enabled: 0
+            Delay: 0
+          - Variable: m_AllowHDROutput
+            Enabled: 0
+            Delay: 0
+          - Variable: m_UseScreenCoordOverride
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RequiresDepthTexture
+            Enabled: 0
+            Delay: 0
+          - Variable: m_RequiresColorTexture
+            Enabled: 0
+            Delay: 0
+          - Variable: m_Version
+            Enabled: 0
+            Delay: 0
+    ShowVariables: 0
+    ShowEvents: 0
+    ShowTranform: 1
+    ShowChildTree: 0
+    prefabEvents:
+      onSpawnPrefab:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onDespawnPrefab:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onAcceptOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onAcceptReleaseOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onTakeObjectOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+      onReleaseObjectOwnerShip:
+        EventTarget: {fileID: 0}
+        EventComponent: {fileID: 0}
+        EventMethod: 
+        EditorVisible: 0
+        ExecutionError: 
+    AnimationSyncMode: 1
+    AnimationCount: 0
+    AnimationDefaultStatus: 
+    ownershipAccessLevel: 0
+    movementType: 0
+    disableObjectGravity: 1
+    enableObjectKinematic: 1
+    updateFieldsToDefault: v.1

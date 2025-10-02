@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f161efa4f5e4f9748991be20536a4cd2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/99-PlayGround/NetworkEventsDatabase.asset
+  uploadId: 788640

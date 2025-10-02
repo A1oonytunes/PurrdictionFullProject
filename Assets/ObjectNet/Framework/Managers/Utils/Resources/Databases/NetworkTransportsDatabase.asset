@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e767bb869f85045b31a8d739fd5ea9, type: 3}
+  m_Name: NetworkTransportsDatabase
+  m_EditorClassIdentifier: 
+  Transports:
+  - Code: 1
+    Name: ObjectNetTransport
+    Server: com.onlineobject.objectnet.embedded.ObjectNetServer
+    Client: com.onlineobject.objectnet.embedded.ObjectNetClient
+    AllowToRemove: 0
+    Active: 0
+  - Code: 2
+    Name: UnityTransport
+    Server: com.onlineobject.objectnet.UnityServer
+    Client: com.onlineobject.objectnet.UnityClient
+    AllowToRemove: 0
+    Active: 0
+  - Code: 3
+    Name: SteamTransport
+    Server: com.onlineobject.objectnet.steamworks.SteamNetworkServer
+    Client: com.onlineobject.objectnet.steamworks.SteamNetworkClient
+    AllowToRemove: 0
+    Active: 1

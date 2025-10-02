@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fad8d4e9350b24f458c68a2eaadd968a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/07-RemoteInput/NetworkEventsDatabase.asset
+  uploadId: 788640

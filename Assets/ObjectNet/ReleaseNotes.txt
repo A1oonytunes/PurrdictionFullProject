@@ -1,0 +1,310 @@
+1.45)
+- Fixed the Steam example scene using the wrong database
+- Added "check all" button on network prefabs database
+
+1.44)
+- Removed unnecessary memory allocation
+- Execute network method in child components
+
+1.43)
+- Removed Unity6 warnings
+- Added method to kick client(s) on the server side
+- Fixed adding network Position, Scale, and Rotation when disabled on Prefab
+- Removed wrong namespace import on the ObjectNet voice system
+- Removed memory leak variable control
+- Fixed Static Id not working when the user selects multiple elements
+
+1.42)
+- Fixed the audio listener disabled on the client's
+- Fixed Steam leave lobby not disconnecting
+
+1.41)
+- Added support for enum types
+- Fixed an error that does not allow selecting Dynamic Spawned on the editor.
+
+1.40)
+- Removed method signature collision
+- Added the possibility to update automatic network variables
+- Force to send reliable variables when execution starts
+- Fixed Steam not updating reliable Network Variables when a new player joins
+
+1.39)
+- Fixed SteamWorks 2025 detection
+- Fixed NetworkVariables not working correctly on multiple scripts
+- Removed exception during disconnection log 
+- Added Reliable network variable
+- Optimization into Unreliable network variable changes detection
+- Added option to select the delivery mode of Network Variables
+- Send reliable network variable status to any new connected player
+- Added option to pause disconnect detection during the scene loading process
+- Exposed the maximum size of the message buffer to be overridden by developers
+- Fixed teleporting methods moving object instead teleport it
+- Fixed movement jittering after teleporting an object
+- Fixed Reliable network variables not working when auto spawning was disabled
+- Fixed Reliable Network variables not sync sometimes after player enter into a game
+- Disable unreliable send packages when there are no unreliable variables
+- Fixed objects not spawning when requested by the client
+
+1.38)
+- Fixed player respawn player when using the Steam Transport system
+- Fixed scene reading causing disconnection
+- Fixed the reliable packages losing received sequence with high packages lost
+- Added a search filter in database prefabs window
+
+1.37)
+- Added ability to filter objects on the Network Prefabs window
+- Fixed error when no transport system is selected
+- Added possibility to execute network start only after behavior mode was assigned
+- Fixed ActiveAwake, PassiveAwake, ActiveStart, and PassiveStart not firing correctly
+- Adjust OnNetworkStart to execute after behavior mode has been set
+- Added support to Vector4 and Matrix4 streams
+- Added support to UTF8 String
+- Added an option to use a persistent player ID when a player is destroyed and respawns
+- Added option to not spawn objects in the scene when the scene is loaded
+- Added possibility to pause Reliable message disconnection
+
+1.36)
+- Added NetworkTraffic counter to measure the amount of sent/received data
+- Fixed Nan error when using Movement Interpolation
+- Added support to synchronize inherited network variables
+
+1.35)
+- Optimization of data generation system
+- Allocation Free ( removed unnecessary garbage data generation )
+- Added data cache system to reuse internal buffers
+- Added support to char on data stream types
+- Added possibility to disable internal executor for some NetworkBehaviour components
+- Added possibility to define custom send rate for network prefab
+- Added a configurable minimum send rate when the network object has no changes
+- Added a trace when NetworkManages was called before being initialized
+- Remove multiple NetworkExecutor from the same NetworkObject (including children)
+- Added single-player compatibility.
+- Fixed minor issues
+
+1.34)
+- Added support to different timescales for clients to remove movement jittering
+- Added support to Healten Steamworks 2025
+- Added possibility to change the number of reliable packaged send attempts
+
+1.33)
+- Removed exception on data received before the finished connection
+- Improve the script reference system for remote synchronization
+- Removed animation error when a curve controls parameter
+
+1.32)
+- Fixed crossfade animation not playing correctly
+- Animation was optimized to use a hash instead of the Animation string name.
+- Animation event is now broadcast to other clients.
+- Added support so "sbyte" and Quaternion into the data stream
+- Fixed error during color streaming
+
+1.31)
+- Added option to force the transport system instead of loading from parameters
+- Added new event "OnConnectionIdAsssigned"
+- Added new event "OnPlayerOwnerDetected"
+- Fire "OnConnectionFailed" event when the client fails on his connection attempt
+- Added option to use prefab rotation during player spawn
+
+1.30)
+- Fixed variables network error when the remote scene is loaded
+- Added a method to unload a remote scene
+- Added option to define position and rotation when spawning remote player
+
+1.29)
+- Added Pause and Resume disconnection by timeout
+- Don't disconnect the player during the remote scene loading
+- Fix the problem; don't destroy "inScene" objects when the remote scene is loaded
+- Fixed error when changing script inheritance of NetworPrefab component
+- Added option to manually spawn player instead do automatically when player connect
+
+1.28)
+- Added Remote Scene Load system
+- Added possibility to limit the number of CCU connected at the server
+- Added detailed description in UI Events data
+- Fixed error when editing some prefabs in prefab mode
+- Removed network variables synchronization when there's no variable in the component
+- Fixed error to make it possible to execute Network methods on child
+- Use variable ID instead of the variable name to reduce the amount of transmitted data
+
+1.27)
+- Fixed not enabling/disabling components when object authority was changed
+- Optimization of Network variables
+- Optimization of the Network animation system
+- Optimization of remote execution methods
+
+1.26)
+- Fixed exception when network services start before being connected
+- Fixed some objects not moving when the player enters the Authoritative server
+- Fixed zero speed on movement interpolations
+- Optimization of NetworkExecute methods
+
+1.25)
+- Fixed error when teleporting player
+- Added support to host migration on the Steam Transport System
+
+1.24)
+- Fixed not getting area trigger on voice chat integration
+
+1.23)
+- Fixed not changing a configuration Physics Interpolation mode on prefabs
+- Do not synchronize physics transform on each position updated
+- Synchronize physics transform when teleporting an object
+- Added integration with "Dissonance Voice Chat"
+
+1.22)
+- Fixed Steam Exception when entering the lobby
+- Fixed the ownership control on the relay mode
+- Fixed jittering when an object has a physics Rigidbody
+- Added a configuration not to use Physics Interpolation mode
+
+1.21)
+- Update NetworkMethod to use a reliable delivery mode
+- Fixed client connection failure on Steam Transport System
+- Fixed Steam Disconnection method to release connection
+- Improvements in Steam connection and stability
+- Fixed error when players try to connect on Relay Server
+- Fixed Serialization error on NetworkBehaviour editor
+- Added support to long and unsigned long
+- Fixed OnConnectionFailed global event not firing
+- Fixed error when changing game from server to client mode
+- Fixed manual animation play to be executed on all clients
+- Fixed audio play to be executed on all clients
+
+1.20)
+- Release connection when stop playing on UnityEditor
+- Fixed Network Manager editor to allow to change movement prediction speed curve
+- Adjust the smooth movement system
+- Adjust the movement prediction system
+- Fixed misordering when registering a custom data stream
+
+1.19)
+- Removed Unity VisualScripting dependency
+
+1.18)
+- Automatic movement mode detection changed
+- Fixed compatibility with Unity 2021
+- Allow execution of Network Methods into child objects
+- Fixed client not reconnecting when using ObjectNet Transport System
+- The network Position system was rebuilt to move elements smoothly
+
+1.17)
+- Fixed not playing animation when using trigger
+- Fixed manual animation play, raising an exception
+- Fixed manual audio play, raising an exception
+- Added "CrossFade" method on network animation
+- Fixed script missing after being removed from the project
+- Added explicit disconnect methods on transport interfaces
+- Fixed NetworkManager disconnection method
+- Do not try to reconnect when the user requests to disconnect
+
+1.16)
+- Added compatibility with the previous Unity Version ( Earlied from 2022 )
+- Added the possibility to use position reference Local or Global
+- Added the possibility to respawn players when player objects are destroyed
+
+1.15)
+- Added support to Steam Transport system
+- Fixed InScene object hasn't associated client
+- Fixed objects not correctly setting gravity and kinematic values on the passive instances of NetworkObject
+
+1.14)
+- Allow to execute multiple NetworkBehavior scripts on the same gameObject
+- Added Teleport method on NetworkObject
+- Fixed NetworkVariable error when compared with primitive types
+
+1.13)
+- Added support to Quaternion on transmitted data
+- Fixed complex types not working on Network method execution
+
+1.12)
+- Fixed send of byte array over the network
+- Reduced the amount of data transmitted on string
+
+1.11)
+- Pause objects on passive instances when objects were paused on the active instance
+- Added movement type peer network prefabs option
+- Added possibility to make objects kinematic and not use gravity on passive instances
+
+1.10)
+- Fixed infinite loop when prefab signature doesn't match within scene objects
+- Blocked UI to flag in the scene and static ID when the object isn't on the scene
+- Blocked UI to modify signature when the object is in the scene
+
+1.9)
+- Fixed IsOwner not working on child objects
+- Fixed network player not being associated with the player
+- Fixed children not syncing properly
+- Fixed deactivated child sync exception
+- Auto destroy in scene object when a player connects
+- Added "NetworkGameObject.Destroy" to destroy objects over the network
+- Fixed gizmo bounds of network objects
+- Added new "NetworkLanDiscovery" to detect server instances on LAN networks
+- Added possibility to create network variables on child game objects
+- Fixed network variables flagged on the prefabs database not being synchronized
+- Fixed error when trying to execute NetworkDiscovery client callback when a new server is discovered
+
+1.8)
+- Fixed IsOwner not working on child objects
+- Fixed network player not being associated with the player
+- Fixed childs not sync
+- Fixed deactivated child sync exception
+- Auto destroy in scene object when a player connects
+- Added "NetworkGameObject.Destroy" to destroy objects over the network
+
+1.7)
+- Fixed network events not executed adequately according to Active/Passive status
+- Fixed child object not being initialized correctly
+- Fixed child object not synchronizing
+- Fixed objects not being activated after being spawned
+
+1.6)
+- Fixed Active/Passive OnEnable methods not called
+- Fixed Active/Passive OnDisable methods not called
+- Fixed network audio controller missing on Network Object component
+- Added friendly error message when prefab can't be found in prefabs database
+- Fixed not saving transform synchronization options on prefab
+
+1.5)
+- Added child synchronization to allow synchronization of child objects
+- Fixed GetRemoteAddress and GetLocaAddress to work on Android devices
+- Fixed static object not updating its position after moving from the original
+- Added integrity update sent on smart system detection to avoid desync
+- Fixed Active/Passive Awake methods to execute only after working mode was defined
+- Fixed Active/Passive Start methods to execute only after working mode was defined
+- Added ActiveOnEnable PassiveOnEnable methods on NetworkBehavior
+- Added ActiveOnDisable PassiveOnDisable methods on NetworkBehavior
+
+1.4)
+- Do not generate input objects when remote input is disabled
+- Fixed error when input is created, but the event isn't associated
+- Added OwnerShip control for network objects
+- Added possibility to control Position, Rotation, and Scale by axis separately
+- Added option to pause and resume to synchronize some data ( Position, Rotation, Scale, Animation ... )
+- Added option to synchronize objects already existent in the scene ( during level design )
+- Added Instantiate method into NetworkGameObject to return game object when network spawn is executed
+- Fixed Relay exception when using the input system
+
+1.3)
+- Fixed no sync network variables depending on the method used to initialize, then
+- Added auto-detection of Network Variables so as not to lose synchronization methods when variables are created by code.
+- Fixed double child's scripts game object into network prefabs database
+- Fixed missed references in the Network Behavior script when those scripts are placed into child objects
+- An added exception in case you try to connect when the connection is already established
+- Added log traces to detect when the connection isn't established
+- Fixed connection failure during play mode on the Unity Editor on URP projects
+- Fixed not executing network methods on child network objects
+- Added component to display log on build
+- Removed double log traces
+
+1.2)
+- Fixed problem when spawning players
+- Fixed error when there's no MainCamera on scene
+- Added new functionalities into NetworkDebugger
+- Allow selecting a deep level of scripts child into the network prefabs
+- Enable to select if the remote player movement will be over RigidBody or Transform
+
+1.1)
+- Removed delay to start to move elements after spawned on client instances
+
+1.0)
+- Initial Version

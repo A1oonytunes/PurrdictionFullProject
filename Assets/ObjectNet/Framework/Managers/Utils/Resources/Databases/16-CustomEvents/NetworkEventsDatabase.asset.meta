@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 153b4e829eb23134a94d80c5ea55d1fc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/16-CustomEvents/NetworkEventsDatabase.asset
+  uploadId: 788640

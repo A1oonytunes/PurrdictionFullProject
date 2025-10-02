@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b3b243cd677e53e458baa5d5f35ff8d2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/AddOns/SteamWorks/Source/SteamEventsEntry.cs
+  uploadId: 788640

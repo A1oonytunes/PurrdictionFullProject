@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8c530c15b526157429c4e7486c7bfe4d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/AddOns/SteamWorks/Editor/NetworkSteamManagerEditor.cs
+  uploadId: 788640

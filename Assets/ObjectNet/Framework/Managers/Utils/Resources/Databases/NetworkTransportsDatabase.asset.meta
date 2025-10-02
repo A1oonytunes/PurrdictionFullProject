@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 655e5618a98568846bc854f6288f225d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/NetworkTransportsDatabase.asset
+  uploadId: 788640

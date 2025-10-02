@@ -1,0 +1,79 @@
+:root {
+}
+
+.panel {
+    background-color: rgba(0, 0, 0, 0.59);
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.menu {
+    width: 400px;
+    height: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    align-content: flex-start;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.unity-button {
+    flex-grow: 0;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 300px;
+    height: 70px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(250, 231, 184);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    background-color: rgb(48, 42, 47);
+    -unity-font-style: bold;
+    -unity-font-definition: resource('FlatSkin/Font/Roboto-Bold');
+    border-left-color: rgb(253, 206, 51);
+    border-right-color: rgb(253, 206, 51);
+    border-top-color: rgb(253, 206, 51);
+    border-bottom-color: rgb(253, 206, 51);
+}
+
+.unity-button:hover {
+    background-color: rgb(65, 58, 63);
+    scale: 1.05 1.05;
+    color: rgb(248, 233, 198);
+    border-left-color: rgb(253, 206, 51);
+    border-right-color: rgb(253, 206, 51);
+    border-top-color: rgb(253, 206, 51);
+    border-bottom-color: rgb(253, 206, 51);
+    border-top-width: 7px;
+    border-right-width: 7px;
+    border-bottom-width: 7px;
+    border-left-width: 7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.unity-text-element {
+    color: rgb(247, 228, 182);
+    font-size: 30px;
+}

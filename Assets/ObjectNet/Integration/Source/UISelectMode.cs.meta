@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 41a289bbd794eb14fb89f593d13c696d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Integration/Source/UISelectMode.cs
+  uploadId: 788640

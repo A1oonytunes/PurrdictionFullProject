@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4a121bfeb4b4be4438e585a7484796e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Editor/NetworkEventsManagerEditor.cs
+  uploadId: 788640

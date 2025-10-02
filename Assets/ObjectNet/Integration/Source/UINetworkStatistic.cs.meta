@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 91d7350fb8cb64e4a8374cf6ed1d2e32
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Integration/Source/UINetworkStatistic.cs
+  uploadId: 788640

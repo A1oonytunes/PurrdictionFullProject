@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 06ca95950c0083847af358d4eb418e28
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Integration/Prefabs/NetworkManager.prefab
+  uploadId: 788640

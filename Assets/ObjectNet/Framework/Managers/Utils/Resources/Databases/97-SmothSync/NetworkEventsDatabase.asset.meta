@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ad9744d394d56248ad13e87e95aceee
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Utils/Resources/Databases/97-SmothSync/NetworkEventsDatabase.asset
+  uploadId: 788640

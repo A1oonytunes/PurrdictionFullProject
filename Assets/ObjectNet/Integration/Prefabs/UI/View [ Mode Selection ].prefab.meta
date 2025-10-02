@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e044c0f7fd990fb41891d8e7db7088a7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Integration/Prefabs/UI/View [ Mode Selection ].prefab
+  uploadId: 788640

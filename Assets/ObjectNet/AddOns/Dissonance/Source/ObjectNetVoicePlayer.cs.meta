@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0204a9476f9bf7e48a858d3bd327c7ed
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/AddOns/Dissonance/Source/ObjectNetVoicePlayer.cs
+  uploadId: 788640

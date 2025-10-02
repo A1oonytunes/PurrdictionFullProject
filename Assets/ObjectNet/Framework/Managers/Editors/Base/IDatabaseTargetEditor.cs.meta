@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dd3ef336b13f23f44b5a518f7404b602
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/Editors/Base/IDatabaseTargetEditor.cs
+  uploadId: 788640

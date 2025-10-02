@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ec45055f75d57439a0b73349117624, type: 3}
+  m_Name: NetworkPrefabsDatabase
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - Id: 1
+    Prefab: {fileID: 4558411392142725532, guid: acdab7eedd35c424c8666adcb20d4088, type: 3}
+    AutoSync: 1
+    AnimationAutoSync: 0
+    ParticlesAutoSync: 0
+    ShowScripts: 0
+    PrefabScripts:
+      Scripts: []
+    ShowChilds: 0
+    ChildObjets:
+      Objects: []
+    ShowInputScripts: 0
+    InputScripts:
+      Scripts: []
+    ShowVariables: 0
+    AnimationSyncMode: 1
+    AnimationCount: 0
+    AnimationDefaultStatus: 

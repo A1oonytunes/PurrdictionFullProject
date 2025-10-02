@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9905b7497f0894e439494ac303aaf8bd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/AddOns/Dissonance/Source/Integration/ObjectNetCommsNetwork.cs
+  uploadId: 788640

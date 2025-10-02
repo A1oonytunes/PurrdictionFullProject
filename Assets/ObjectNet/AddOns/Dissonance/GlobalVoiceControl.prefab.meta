@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 70928b8289c3f104aa1391f5de02f41a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/AddOns/Dissonance/GlobalVoiceControl.prefab
+  uploadId: 788640

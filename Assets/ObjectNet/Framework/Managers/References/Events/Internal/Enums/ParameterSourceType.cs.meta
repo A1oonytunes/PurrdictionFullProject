@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7bea930e2817a4947a12d1af3cc37efd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261437
+  packageName: ObjectNet - Easier Multiplayer System
+  packageVersion: 1.45
+  assetPath: Assets/ObjectNet/Framework/Managers/References/Events/Internal/Enums/ParameterSourceType.cs
+  uploadId: 788640
