@@ -49,10 +49,19 @@ MonoBehaviour:
   cameraTransform: {fileID: 4577012478046907994}
   mouseSensitivity: 2
   maxLookAngle: 80
-  characterController: {fileID: 0}
-  followTarget: {fileID: 0}
   followOffset: {x: 0, y: 0, z: 0}
   followSmoothTime: 0
+  enableWallRunLean: 1
+  wallRunLeanAngle: 7
+  wallRunLeanSpeed: 8
+  enableCameraShake: 0
+  shakeDecay: 5
+  enableCameraBob: 0
+  bobAmount: 0.02
+  bobSpeed: 10
+  enableFOVChange: 0
+  defaultFOV: 80
+  fovChangeSpeed: 5
 --- !u!1 &7391222524434606865
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,7 +88,7 @@ Transform:
   m_GameObject: {fileID: 7391222524434606865}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.6999998, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

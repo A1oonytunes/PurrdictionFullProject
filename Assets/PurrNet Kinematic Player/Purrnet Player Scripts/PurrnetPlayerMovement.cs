@@ -16,6 +16,7 @@ public class PurrnetPlayerMovement :
     [SerializeField] private Transform cameraTarget; 
     [SerializeField] private InputActionAsset asset;
     [SerializeField] private GameObject cameraParentPrefab;
+    [SerializeField] private GameObject thirdPersonMesh;
 
     [Header("Movement - Ground")]
     [SerializeField] private float walkSpeed = 20f;
@@ -92,6 +93,10 @@ public class PurrnetPlayerMovement :
     
     // Store the last simulated state for public accessors
     private PlayerState _lastSimulatedState;
+    
+    // DEBUG: Track predictions vs corrections
+    private PlayerState _lastPredictedState;
+    private bool _isRestoringState = false;
 
     public enum Stance { Stand, Crouch, Slide, WallRun }
     public enum PurrnetCrouchMode { Hold, Toggle }
@@ -146,12 +151,40 @@ public class PurrnetPlayerMovement :
         state.Position = motor.TransientPosition;
         state.Rotation = motor.TransientRotation;
         state.Velocity = motor.BaseVelocity;
+        
+        // Store this as our last prediction
+        if (!_isRestoringState)
+        {
+            _lastPredictedState = state;
+        }
     }
 
     protected override void SetUnityState(PlayerState state)
     {
+        _isRestoringState = true;
+    
+        // Compare with our last predicted state to see if server corrected us
+        if (enableDebugLogs)
+        {
+            CompareStates(_lastPredictedState, state, "SERVER CORRECTION");
+        }
+    
+        // Sync the core motor properties from the corrected state
         motor.SetPositionAndRotation(state.Position, state.Rotation);
         motor.BaseVelocity = state.Velocity;
+    
+        // ✨ [FIX] IMMEDIATELY sync the capsule height to match the corrected stance.
+        // This prevents a one-frame visual glitch where the model is the wrong size.
+        float targetHeight = (state.Stance == Stance.Stand || state.Stance == Stance.WallRun) 
+            ? standHeight 
+            : crouchHeight;
+        motor.SetCapsuleDimensions(motor.Capsule.radius, targetHeight, targetHeight * 0.5f);
+
+        // ✨ [FIX] Also, ensure the local simulation state is updated with the correction.
+        // This provides the next simulation tick with the correct starting point.
+        _currentSimulationState = state;
+
+        _isRestoringState = false;
     }
 
     #endregion
@@ -172,11 +205,7 @@ public class PurrnetPlayerMovement :
         _motorList.Clear();
         _motorList.Add(motor);
         KinematicCharacterSystem.Settings = _kccSettings;
-        
-        if (enableDebugLogs)
-            Debug.Log($"[{name}] Initialize - isOwner: {isOwner}");
     }
-
     private void InitializeInputs()
     {
         if (_inputsInitialized || !isOwner) return;
@@ -191,10 +220,8 @@ public class PurrnetPlayerMovement :
         var map = _playerInput.currentActionMap;
         if (map == null)
         {
-            // Debug.LogError($"[{name}] No action map found on PlayerInput!");
             _playerInput.currentActionMap = asset.FindActionMap("Player");
             map = _playerInput.currentActionMap;
-            // return;
         }
 
         // Find actions - using FindAction which returns null if not found
@@ -216,9 +243,6 @@ public class PurrnetPlayerMovement :
         _mCrouchAction.Enable();
 
         _inputsInitialized = true;
-        
-        if (enableDebugLogs)
-            Debug.Log($"[{name}] Inputs initialized successfully");
     }
     
 
@@ -257,6 +281,9 @@ public class PurrnetPlayerMovement :
         }
 
         InitializeInputs();
+        
+        if(thirdPersonMesh)
+            thirdPersonMesh.SetActive(!isOwner);
     }
 
     protected override void GetFinalInput(ref PlayerInput input)
@@ -278,8 +305,6 @@ public class PurrnetPlayerMovement :
         if (_mJumpAction != null)
         {
             input.Jump |= _mJumpAction.WasPressedThisFrame();
-            //input.Jump |= Input.GetKeyDown(KeyCode.Space);
-            //input.JumpSustain = _mJumpAction.IsPressed();
         }
         
         if (_mCrouchAction != null)
@@ -291,10 +316,10 @@ public class PurrnetPlayerMovement :
 
     protected override void Simulate(PlayerInput input, ref PlayerState state, float delta)
     {
-        if (enableDebugLogs && isOwner)
-        {
-            Debug.Log($"[Simulate] Move: {input.Move}, Jump: {input.Jump}, Owner: {isOwner}");
-        }
+        // if (enableDebugLogs && isOwner)
+        // {
+        //     Debug.Log($"[Simulate] Move: {input.Move}, Jump: {input.Jump}, Look: {input.Look.eulerAngles.y:F1}°, Stance: {state.Stance}");
+        // }
 
         // Store current state and input for KCC callbacks
         _currentSimulationState = state;
@@ -330,6 +355,11 @@ public class PurrnetPlayerMovement :
         
         // Store the final state for public accessors
         _lastSimulatedState = state;
+        
+        // if (enableDebugLogs && isOwner)
+        // {
+        //     Debug.Log($"[Simulate Result] Pos={state.Position}, Vel={state.Velocity.magnitude:F2}, Grounded={state.Grounded}, Stance={state.Stance}");
+        // }
     }
 
     protected override PlayerState GetInitialState()
@@ -437,10 +467,10 @@ public class PurrnetPlayerMovement :
         state.Velocity = motor.BaseVelocity;
         state.PreviousStance = state.Stance;
 
-        if (enableDebugLogs && prevStance != state.Stance)
-        {
-            Debug.Log($"[AfterCharacterUpdate] Stance changed {prevStance} -> {state.Stance}, Grounded={state.Grounded}");
-        }
+        // if (enableDebugLogs && prevStance != state.Stance)
+        // {
+        //     Debug.Log($"[AfterCharacterUpdate] Stance changed {prevStance} -> {state.Stance}, Grounded={state.Grounded}");
+        // }
     
         _currentSimulationState = state;
     }
@@ -767,6 +797,50 @@ public class PurrnetPlayerMovement :
             state.RightWallNormal = rightHit.normal;
         }
     }
+    
+    #endregion
+
+    #region Debug State Comparison
+
+    private void CompareStates(PlayerState predicted, PlayerState verified, string context)
+    {
+        // Define thresholds to avoid logging tiny floating-point inaccuracies
+        const float posThreshold = 0.01f;
+        const float velThreshold = 1f;
+    
+        // --- Position Check ---
+        float posDiff = Vector3.Distance(predicted.Position, verified.Position);
+        if (posDiff > posThreshold)
+        {
+            Debug.LogWarning($"[{context}] Position Mismatch! Difference: {posDiff:F4}. Predicted: {predicted.Position}, Verified: {verified.Position}");
+        }
+
+        // --- Velocity Check ---
+        float velDiff = Vector3.Distance(predicted.Velocity, verified.Velocity);
+        if (velDiff > velThreshold)
+        {
+            Debug.LogWarning($"[{context}] Velocity Mismatch! Difference: {velDiff:F4}. Predicted: {predicted.Velocity}, Verified: {verified.Velocity}");
+        }
+
+        // --- Stance Check ---
+        if (predicted.Stance != verified.Stance)
+        {
+            Debug.LogWarning($"[{context}] Stance Mismatch! Predicted: {predicted.Stance}, Verified: {verified.Stance}");
+        }
+
+        // --- Grounded Check ---
+        if (predicted.Grounded != verified.Grounded)
+        {
+            Debug.LogWarning($"[{context}] Grounded Mismatch! Predicted: {predicted.Grounded}, Verified: {verified.Grounded}");
+        }
+
+        // --- Jumps Used Check ---
+        if (predicted.NumJumpsUsed != verified.NumJumpsUsed)
+        {
+            Debug.LogWarning($"[{context}] NumJumpsUsed Mismatch! Predicted: {predicted.NumJumpsUsed}, Verified: {verified.NumJumpsUsed}");
+        }
+    }
+
     #endregion
 
     #region Public Getters/Setters
@@ -783,6 +857,8 @@ public class PurrnetPlayerMovement :
     public bool IsDoubleJumpEnabled { get => isDoubleJumpEnabled; set => isDoubleJumpEnabled = value; }
     public bool IsWallRunEnabled { get => isWallRunEnabled; set => isWallRunEnabled = value; }
     public PurrnetCrouchMode GetCrouchMode() => _crouchMode;
+
+    public Stance GetPlayerStance() => GetCurrentState().Stance;
     
     public Vector3 GetWallNormal()
     {

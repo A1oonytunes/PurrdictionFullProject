@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 2690965466134963508}
   - component: {fileID: 8680889408901227638}
   - component: {fileID: 8424029497100863837}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ MonoBehaviour:
   cameraTarget: {fileID: 8197309028830546085}
   asset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   cameraParentPrefab: {fileID: 3971700061696830049, guid: 8fa31678eea77bd4ab564cc7e222358b, type: 3}
-  cameraAttachPoint: {fileID: 1984236116365166609}
+  thirdPersonMesh: {fileID: 2754845863727521690}
   walkSpeed: 20
   crouchSpeed: 7
   walkResponse: 25
